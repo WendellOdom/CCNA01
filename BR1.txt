@@ -3,3 +3,8 @@ hostname R1
 !
 router ospf 1
  router-id 1.1.1.1
+!
+interface gigabitethernet0/0
+ description connected to SW1
+ ip address 10.1.1.1 255.255.255.0
+ 
