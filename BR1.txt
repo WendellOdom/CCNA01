@@ -1,0 +1,5 @@
+!
+hostname R1
+!
+router ospf 1
+ router-id 1.1.1.1
